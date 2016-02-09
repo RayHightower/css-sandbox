@@ -8,10 +8,23 @@ body { }
     background: silver;
     width: 1200px;
     height: 600px;
+    margin: 0 auto;
   }
-    #header {}
-    #nav {}
-    #content {}
+    #header {
+      background: blue;
+      width: 1200px;
+      height: 100px;
+    }
+    #nav {
+    background: black;
+    width: 1200px;
+    height: 50px;
+    }
+    #content {
+      background: gray;
+      width: 1200px;
+      height: 200px;
+      }
       .left-side {}
       .right-side {}
       .footer {}
