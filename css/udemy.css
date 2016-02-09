@@ -11,7 +11,7 @@ body { }
     margin: 0 auto;
   }
     #header {
-      background: blue;
+      background: navy;
       width: 1200px;
       height: 100px;
     }
@@ -23,9 +23,13 @@ body { }
     #content {
       background: gray;
       width: 1200px;
-      height: 200px;
+      /* height: 200px; remove this and let .left-side push the length of the content div */
       }
-      .left-side {}
+      .left-side {
+      background: tan;
+      width: 200px;
+      height: 400px;
+      }
       .right-side {}
       .footer {}
 
