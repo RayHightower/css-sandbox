@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { }
+  #container {
+    background: silver;
+    width: 1200px;
+    height: 600px;
+  }
+    #header {}
+    #nav {}
+    #content {}
+      .left-side {}
+      .right-side {}
+      .footer {}
+
+   
